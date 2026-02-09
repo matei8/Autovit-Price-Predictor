@@ -1,0 +1,6 @@
+Algoritm,Params,MSE (Test),MAE (Test),R2 Score
+Gradient Boosting (Tuned),"{'learning_rate': 0.1, 'max_depth': 7, 'min_samples_split': 4, 'n_estimators': 234, 'subsample': 0.8}","77,228,534","3,495 €",0.9101
+GBR Quantile (Median),"{'loss': 'quantile', 'n_estimators': 200, 'max_depth': 5, 'learning_rate': 0.1, 'random_state': 42}",-,"3,849 €",0.8710
+SVR (Tuned),"{'C': np.float64(31.428808908401084), 'gamma': 'auto', 'kernel': 'rbf'}","112,742,429","3,859 €",0.8687
+Random Forest (Tuned),"{'max_depth': 15, 'max_features': None, 'min_samples_leaf': 19, 'min_samples_split': 3, 'n_estimators': 287}","132,790,612","4,446 €",0.8454
+Linear Regression (Ridge),"{'alpha': np.float64(98.77700294007911), 'solver': 'svd'}","156,448,502","4,721 €",0.8178
